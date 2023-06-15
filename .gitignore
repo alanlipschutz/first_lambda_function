@@ -10,6 +10,7 @@ __pycache__/
 
 layer.zip
 send_notification.zip
+python.zip
 
 # Distribution / packaging
 .Python
@@ -33,7 +34,7 @@ MANIFEST
 urllib3/
 urllib3-1.26.16.dist-info/
 requests/
-
+python/
 
 
 # PyInstaller
