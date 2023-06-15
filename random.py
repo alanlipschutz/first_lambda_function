@@ -22,3 +22,4 @@ os.system(f'aws lambda update-function-configuration --function-name {this_lambd
 time.sleep(20)
 update_command = f"aws lambda update-function-code --function-name {this_lambda_arn} --zip-file fileb://{compressed_file_path} --publish"
 os.system(update_command)
+
